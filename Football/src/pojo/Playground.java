@@ -5,6 +5,19 @@ public class Playground {
 	private Float length;
 	private Float breath;
 	
+	public Playground() {
+		venue = "";
+		length = (float) 0;
+		breath = (float) 0;
+		System.out.println("creating object");
+	}
+	
+	public Playground(String venue, Float length, Float breath) {
+		this.venue = venue;
+		this.length = length;
+		this.breath = breath;
+	}
+	
 	public String getVenue() {
 		return venue;
 	}

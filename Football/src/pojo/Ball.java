@@ -5,6 +5,19 @@ public class Ball {
 	private String colour;
 	private Float weight;
 	
+	public Ball() {
+		size = 0;
+		colour = "";
+		weight = (float) 0;
+		System.out.println("creating object");
+	}
+	
+	public Ball(Integer size, String colour, Float weight) {
+		this.size = size;
+		this.colour = colour;
+		this.weight = weight;
+	}
+	
 	public Integer getSize() {
 		return size;
 	}

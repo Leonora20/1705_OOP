@@ -8,6 +8,17 @@ public class Referee {
 		System.out.println("gives_fouls");
 	}
 	
+	public Referee() {
+		age = 0;
+		rname = "";
+		System.out.println("creating object");
+	}
+	
+	public Referee(String rname, Integer age) {
+		this.rname = rname;
+		this.age = age;
+	}
+	
 	public String getRname() {
 		return rname;
 	}
