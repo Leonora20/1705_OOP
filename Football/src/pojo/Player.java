@@ -1,7 +1,7 @@
 package pojo;
 
 public class Player {
-	private Integer age;
+	public Integer age;
 	private String name;
 
 	public void kick() {
