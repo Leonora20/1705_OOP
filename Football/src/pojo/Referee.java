@@ -1,8 +1,10 @@
 package pojo;
 
-public class Referee {
+public abstract class Referee {
 	private String rname;
 	private Integer age;
+	
+	public abstract void calculateSalary();
 	
 	public void gives_fouls() {
 		System.out.println("gives_fouls");

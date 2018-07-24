@@ -1,6 +1,7 @@
 package pojo;
 
-public class Team {
+public class Team extends Coach {
+	
 	private Integer no_of_players;
 	private String name;
 	
@@ -30,5 +31,11 @@ public class Team {
 	}
 	public void setName(String name) {
 		this.name = name;
+	}
+	
+	@Override
+	public void instructs() {
+		System.out.println("Team Up Team Up...!");
+		super.instructs();
 	}
 }
