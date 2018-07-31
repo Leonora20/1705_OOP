@@ -5,6 +5,10 @@ public class Team extends Coach {
 	private Integer no_of_players;
 	private String name;
 	
+	public void management(){
+		System.out.println("\nManagement");
+	}
+	
 	public void plays() {
 		System.out.println("plays");
 	}
