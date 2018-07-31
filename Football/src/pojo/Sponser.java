@@ -19,5 +19,4 @@ public class Sponser extends Team implements DailyWage, AccDetail {
 		System.out.println("--------------------------");
 	}
 	
-
 }

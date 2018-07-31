@@ -16,7 +16,7 @@ public class Team extends Coach {
 	public Team() {
 		no_of_players = 0;
 		name = "";
-		System.out.println("creating object");
+		System.out.println("creating object (Team)");
 	}
 	
 	public Team(String name, Integer no_of_players) {
