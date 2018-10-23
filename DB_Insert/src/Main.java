@@ -17,9 +17,9 @@ public class Main {
 			statement.setString(3, "Shweta");
 			 
 			int rowsInserted = statement.executeUpdate();
-			if (rowsInserted > 0) {
+			/*if (rowsInserted > 0) {
 			    System.out.println("A new Student was inserted successfully!");
-			}
+			}*/
 			con.close();
 			
 		}catch(Exception e) {
